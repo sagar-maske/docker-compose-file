@@ -5,4 +5,4 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - "/mnt/project:/usr/local/tomcat/webapps"
+      - "/mnt/project/docker-compose-file:/usr/local/tomcat/webapps"
